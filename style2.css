@@ -1,0 +1,62 @@
+@font-face {
+    font-family: source-sans-regular;
+    src: url(font/SourceSansPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: source-sans-bold;
+    src: url(font/SourceSansPro-Bold.ttf);
+}
+
+html {
+    background-color: #c4c4c4;
+}
+
+body {
+    width: 375px;
+    height: 100vh;
+    background-color: #fff;
+    background-size: cover;
+    font-family: source-sans-bold;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.message {
+    text-align: center;
+}
+
+#tittle {
+    margin: 0;
+    border-bottom: 1px solid  #c4c4c4 ;
+    padding-bottom: 30px;
+}
+
+#input-el {
+    margin-left: 13px;
+    width: 320px;
+    height: 24px;
+    border-radius: 50px;
+    font-size: 14px;
+    padding: 10px 15px;
+    position:absolute;
+    bottom:1%;
+    border: 1px solid grey;
+    }
+
+li {
+    list-style: none;
+    font-family: source-sans-regular;
+    font-size: 24px;
+}
+
+#btn {
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: none;
+    font-size: 18px;
+    color: #0095F6;
+    position:absolute;
+    bottom: 1%;
+    margin-left: 310px;
+}

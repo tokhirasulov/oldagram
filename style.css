@@ -8,6 +8,7 @@
     src: url(font/SourceSansPro-Bold.ttf);
 }
 
+
 body{
     margin: 0;
     background-color: #c4c4c4;
@@ -20,8 +21,12 @@ section {
     width: 375px;
 }
 
-.first-post {
-    height: 575px;
+
+
+.first-post, 
+.second-post,
+.third-post {
+    margin-bottom: 25px;
 }
 
 .header-images {
@@ -40,7 +45,10 @@ section {
     border-radius: 50%;
 }
 
-#first-avatar {
+#first-avatar, 
+#second-avatar,
+#third-avatar,
+#Tokhir-avatar{
     width: 34px;
     border-radius: 50%;
 }
@@ -51,20 +59,30 @@ section {
     margin: 0;
     line-height: 0;
     padding: 10px;
+    padding-bottom: 0;
 }
 
-#first-username {
+#first-username, 
+#second-username,
+#third-username,
+#Tokhir-username {
     margin-left: 7px;
     font-family: source-sans-bold;
     font-size: 13px;
 }
-#first-place {
+#first-place, 
+#second-place, 
+#third-place,
+#Tokhir-place{
     margin-left: 7px;
     font-family: source-sans-regular;
     font-size: 12px;
 }
 
-#first-photo {
+#first-photo, 
+#second-photo,
+#third-photo,
+#Tokhir-photo {
     width: 375px;
     margin-top: 11px;
 }
@@ -76,29 +94,46 @@ section {
 
 a {
     color: black;
+    text-decoration: none;
 }
 
 #comment, #share {
     margin-left: 10px;
 }
 
-#like-number-first {
+#like-number-first, 
+#like-number-second,
+#like-number-third,
+#like-number-Tokhir {
     font-family: source-sans-bold;
     font-size: 13px;
 }
 
-#span-username {
+#span-username-first, 
+#span-username-second, 
+#span-username-third,
+#span-username-Tokhir {
     font-family: source-sans-bold;
     
+
 }
 
-#description {
+#description-first, 
+#description-second,
+#description-third,
+#description-Tokhir {
     font-size: 13px;
     font-family: source-sans-regular;
-    margin: 0;
 }
 
-#like-number-first, #description {
+#like-number-first, 
+#like-number-second,
+#like-number-third,
+#like-number-Tokhir,
+#description-first, 
+#description-second,
+#description-third,
+#description-Tokhir {
     margin-left: 13px;
     margin-bottom: 0;
     margin-top: 11px;
