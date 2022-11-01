@@ -1,0 +1,109 @@
+@font-face {
+    font-family: source-sans-regular;
+    src: url(font/SourceSansPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: source-sans-bold;
+    src: url(font/SourceSansPro-Bold.ttf);
+}
+
+body{
+    margin: 0;
+    background-color: #c4c4c4;
+}
+
+header, 
+section {
+    background-color: #fff;
+    margin: 0 auto;
+    width: 375px;
+}
+
+.first-post {
+    height: 575px;
+}
+
+.header-images {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    border-bottom:  1px solid #c4c4c4;
+}
+#logo {
+    width: 127px;
+}
+
+#avatar-Tokhir {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+#first-avatar {
+    width: 34px;
+    border-radius: 50%;
+}
+
+.information-user {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    line-height: 0;
+    padding: 10px;
+}
+
+#first-username {
+    margin-left: 7px;
+    font-family: source-sans-bold;
+    font-size: 13px;
+}
+#first-place {
+    margin-left: 7px;
+    font-family: source-sans-regular;
+    font-size: 12px;
+}
+
+#first-photo {
+    width: 375px;
+    margin-top: 11px;
+}
+
+.icons {
+    margin-top: 21px;
+    margin-left: 10px;
+}
+
+a {
+    color: black;
+}
+
+#comment, #share {
+    margin-left: 10px;
+}
+
+#like-number-first {
+    font-family: source-sans-bold;
+    font-size: 13px;
+}
+
+#span-username {
+    font-family: source-sans-bold;
+    
+}
+
+#description {
+    font-size: 13px;
+    font-family: source-sans-regular;
+    margin: 0;
+}
+
+#like-number-first, #description {
+    margin-left: 13px;
+    margin-bottom: 0;
+    margin-top: 11px;
+}
+
+.fas {
+    color: red;
+}
