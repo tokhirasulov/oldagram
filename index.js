@@ -29,7 +29,7 @@ firstPhoto.addEventListener("dblclick", function(){
 
 })
 
-secondPhoto.addEventListener("click", function(){
+secondPhoto.addEventListener("dblclick", function(){
     if (likeSecond.classList.contains("fa-regular")){
         likeSecond.classList.remove("fa-regular");
         likeSecond.classList.add("fas");
@@ -42,7 +42,7 @@ secondPhoto.addEventListener("click", function(){
     }
 })
 
-thirdPhoto.addEventListener("click", function(){
+thirdPhoto.addEventListener("dblclick", function(){
     if (likeThird.classList.contains("fa-regular")){
         likeThird.classList.remove("fa-regular");
         likeThird.classList.add("fas");
@@ -56,7 +56,7 @@ thirdPhoto.addEventListener("click", function(){
 })
 
 
-tokhirPhoto.addEventListener("click", function(){
+tokhirPhoto.addEventListener("dblclick", function(){
     if (likeTokhir.classList.contains("fa-regular")){
         likeTokhir.classList.remove("fa-regular");
         likeTokhir.classList.add("fas");
